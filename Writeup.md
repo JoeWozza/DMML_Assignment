@@ -1,3 +1,6 @@
+# A Machine Learning Study into Batting Strategies in the Indian Premier League
+Rhiann Nelson, Dean Wales, Joe Wozniczka-Wells
+
 ## Background and Project Aim
 The bat and ball game of cricket is widely considered to have originated in England in the 16th century and as a result of the British empire has since become one of the most played and watched sports in the world. According to the International Cricket Council (2018), there are over 1 billion cricket supporters worldwide and nearly 90% of them come from the Indian subcontinent. It is the most popular sport in Pakistan, Bangladesh, Sri Lanka, Afghanistan and India with support for the game is particularly fervent in the latter.
 
@@ -117,6 +120,9 @@ Top-order batters face more dot balls than middle-order batters in all teams and
 
 
 ## Data Modelling and Model Evaluation
+
+### Team batting strategies: k-means clustering
+
 K-means clustering is an unsupervised learning method that uses Euclidean distances to group individual observations into a number, k, of clusters. We will perform k-means clustering on the innings-by-innings data in an attempt to reveal more information about the batting strategies used by different IPL teams.
 
 The parameters used in the k-means algorithm, as defined in the scikit-learn documentation, are described in the table below.
@@ -256,7 +262,7 @@ The section of the research dedicated to using k-means clustering to investigate
 
 Clarke, S. R. (1988). "Dynamic programming in one-day cricket- optimal scoring rates" *Journal of the Operational Research Society 39*, 331-337
 
-Clarke, S. R., Norman, J. M. (1999). "To run or not?: Some dynamic programming models in cricket" *Journal of the Operational Research Society 50* 536-545
+Clarke, S. R., Norman, J. M. (1999). "To run or not?: Some dynamic programming models in cricket" *Journal of the Operational Research Society 50*, 536-545
 
 CricViz. Cricket Intelligence at the Next Level. https://www.cricviz.com/
 
@@ -278,7 +284,7 @@ Kapadia, K., Abdel-Jaber, H., Thabtah, F., Hadi, W. (2019) "Sport analytics for 
 
 Lewis, M. (2003). *Moneyball: The Art of Winning an Unfair Game* W.W. Norton & Co.
 
-Norman, J. M., Clarke, S. R. (2010). "Optimal batting order in cricket" *Journal of the Operational Research Society 61* 980-986
+Norman, J. M., Clarke, S. R. (2010). "Optimal batting order in cricket" *Journal of the Operational Research Society 61*, 980-986
 
 Prakash, C.D., Patvardhan, C., Lakshmi, C.V. (2017) "AI Methodology for Automated Selection of Playing XI in IPL Cricket" *International Journal of Engineering Technology Science and Research 4*(6), 419-432
 
@@ -288,6 +294,6 @@ Sky Sports (2021, June 04). England's lead analyst Nathan Leamon explains the ro
 
 Sportekz (2021, April 09). IPL 2021 Players Salaries. https://www.sportekz.com/cricket/ipl-2021-players-salaries/
 
-Swartz, T.B., Gill, P.S., Beaudoin, D., deSilva, B.M. (2006). "Optimal batting orders in one-day cricket" *Computers and Operations Research 33* 1939-1950.
+Swartz, T.B., Gill, P.S., Beaudoin, D., deSilva, B.M. (2006). "Optimal batting orders in one-day cricket" *Computers and Operations Research 33*, 1939-1950.
 
 Tewari, S. (2021, April 29). IPL viewership sees double digit decline in first two weeks over 2020. LiveMint. https://www.livemint.com/industry/media/ipl-viewership-sees-double-digit-decline-in-first-two-weeks-over-2020-11619709505228.html
