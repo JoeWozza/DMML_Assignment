@@ -693,9 +693,6 @@ crosstab_3_4 = (pd.crosstab(df_clustered_4['inns_cluster'],
                            colnames = ['Solution 3'])
     .apply(lambda r: round(100*r/r.sum()), axis=1))
 
-
-
-
 #%%
 
 # Runs scored, balls faced and strike rate in each 5 ball block
